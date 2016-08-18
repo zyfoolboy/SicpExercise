@@ -1,0 +1,42 @@
+MIT/GNU Scheme running under OS X
+
+Copyright (C) 2014 Massachusetts Institute of Technology
+This is free software; see the source for copying conditions. There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Image saved on Wednesday August 17, 2016 at 3:59:30 PM
+  Release 9.2 || Microcode 15.3 || Runtime 15.7 || SF 4.41 || LIAR/C 4.118
+  Edwin 3.116
+
+1 ]=> (cd "/Users/deyi/Documents/Code/Scheme")
+
+;Value 2: #[pathname 2 "/Users/deyi/Documents/Code/Scheme/"]
+
+1 ]=> (load "1-1.scm")
+
+;Unable to find file "1-1.scm" because: File does not exist.
+;To continue, call RESTART with an option number:
+; (RESTART 1) => Return to read-eval-print level 1.
+
+2 error> (load "1-1.scm")
+
+;Unable to find file "1-1.scm" because: File does not exist.
+;To continue, call RESTART with an option number:
+; (RESTART 2) => Return to read-eval-print level 2.
+; (RESTART 1) => Return to read-eval-print level 1.
+
+3 error> (cd "/Users/deyi/Documents/Code/myGithub/SicpExercise")
+
+;Value 3: #[pathname 3 "/Users/deyi/Documents/Code/myGithub/SicpExercise/"]
+
+3 error> (load "1-1.scm")
+
+;Loading "1-1.scm"... done
+;Value: 28
+
+3 error> (load "1-1.scm")
+
+;Loading "1-1.scm"... done
+;Value: 28
+
+3 error> 
