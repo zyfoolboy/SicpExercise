@@ -10,7 +10,9 @@ Sicp练习解答
 [1.3答案](https://github.com/zyfoolboy/SicpExercise/blob/master/1-3.scm)
 
 ###1.4
+1.4过程的行为是  a + |b| 
 
+a加上b的绝对值
 
 ###1.5
 
