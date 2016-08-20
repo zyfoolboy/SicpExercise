@@ -31,7 +31,7 @@ a加上b的绝对值
 
 正则序则不一样，先不求参数的值，直到需要值的时候再求值，因为第一个参数是0，程序不会用到 (p) 所以直接返回0
 
-Scheme的解释器进入到无限递归中因此属于应用序
+Scheme 的解释器进入到无限递归中因此属于应用序
 
 ###1.6
 [代码](https://github.com/zyfoolboy/SicpExercise/blob/master/1-6.scm)
