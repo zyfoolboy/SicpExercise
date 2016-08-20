@@ -36,4 +36,4 @@ Scheme的解释器进入到无限递归中因此属于应用序
 ###1.6
 [代码](https://github.com/zyfoolboy/SicpExercise/blob/master/1-6.scm)
 
-由于 Scheme 的解释器属于应用序，所以会先对传入 new-if 的两个参数进行求值，如果第二个参数不是理想值的情况下 new-if 会无限递归下去，从而不能出正确值
+由于 Scheme 的解释器属于应用序，所以会先对传入 new-if 的两个参数进行求值，如果第二个参数不是理想值，所以 new-if 会无限递归下去，从而不能出正确值
