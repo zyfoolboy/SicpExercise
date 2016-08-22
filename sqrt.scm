@@ -18,3 +18,6 @@
 
 (sqrt 9)
 (sqrt 10)
+
+
+(good-enough? 1 (/ 2 1))
