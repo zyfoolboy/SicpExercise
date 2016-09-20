@@ -50,3 +50,6 @@ Scheme 的解释器进入到无限递归中因此属于应用序
 >0.0009 < x < 1.0001
 
 对于 `x > 1.0001` 经过 `(improve guess x)` 之后会趋近于正确值 
+***
+###1.8
+[代码](https://github.com/zyfoolboy/SicpExercise/blob/master/1-8.scm)
