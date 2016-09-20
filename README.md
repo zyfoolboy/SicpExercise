@@ -53,3 +53,7 @@ Scheme 的解释器进入到无限递归中因此属于应用序
 ***
 ###1.8
 [代码](https://github.com/zyfoolboy/SicpExercise/blob/master/1-8.scm)
+***
+###1.9
+第一个计算过程:
+
