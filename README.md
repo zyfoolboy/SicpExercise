@@ -1,20 +1,20 @@
 # SicpExercise
 Sicp练习解答
-###1.1
+### 1.1
 10  12  8  3  -2  6  19  0  b=4  16  6  16
 ***
-###1.2
+### 1.2
 [1.2答案](https://github.com/zyfoolboy/SicpExercise/blob/master/1-2.scm)
 ***
-###1.3
+### 1.3
 [1.3答案](https://github.com/zyfoolboy/SicpExercise/blob/master/1-3.scm)
 ***
-###1.4
+### 1.4
 1.4过程的行为是  a + |b| 
 
 a加上b的绝对值
 ***
-###1.5
+### 1.5
 ```
 (define (p) (p))
 (define (text x y)
@@ -33,12 +33,12 @@ a加上b的绝对值
 
 Scheme 的解释器进入到无限递归中因此属于应用序
 ***
-###1.6
+### 1.6
 [代码](https://github.com/zyfoolboy/SicpExercise/blob/master/1-6.scm)
 
 由于 Scheme 的解释器属于应用序，所以会先对传入 new-if 的两个参数进行求值，如果第二个参数不是理想值，所以 new-if 会无限递归下去，从而不能出正确值
 ***
-###1.7
+### 1.7
 在该方法中判断求值是否完成的充要条件是 “猜测的数的平方与被开方的数的差小于0.001” 转变为条件表达式
 
 >|guess^2 - x| < 0.001
@@ -51,10 +51,10 @@ Scheme 的解释器进入到无限递归中因此属于应用序
 
 对于 `x > 1.0001` 经过 `(improve guess x)` 之后会趋近于正确值 
 ***
-###1.8
+### 1.8
 [代码](https://github.com/zyfoolboy/SicpExercise/blob/master/1-8.scm)
 ***
-###1.9
+### 1.9
 第一个计算过程:
 >(+ 4 5)<br/>
 (inc (+ 3 5))<br/>
@@ -79,7 +79,7 @@ Scheme 的解释器进入到无限递归中因此属于应用序
 
 该过程属于迭代
 ***
-###1.10
+### 1.10
 >(A 1 10)<br/>
 (A 0 (A 1 9))<br/>
 (A 0 (A 0 (A 1 8)))<br/>
